@@ -1,20 +1,20 @@
 [submodule "eggroll"]
 	path = eggroll
-	url = https://github.com/FederatedAI/eggroll.git
-	branch = v3.1.0
+	url = https://github.com/Lost-Temple/eggroll-v2-dev.git
+	branch = eggroll-v2-dev
 [submodule "fate_client"]
 	path = fate_client
-	url = https://github.com/FederatedAI/FATE-Client
-	branch = v2.1.0
+	url = https://github.com/Lost-Temple/fateclient-v2-dev.git
+	branch = fate_client-v2-dev
 [submodule "fate_flow"]
 	path = fate_flow
-	url = https://github.com/FederatedAI/FATE-Flow
-	branch = v2.1.0
+	url = https://github.com/Lost-Temple/fateflow-v2-dev.git
+	branch = fateflow-v2-dev
 [submodule "fate_test"]
 	path = fate_test
-	url = https://github.com/FederatedAI/FATE-Test.git
-	branch = v2.1.0
+	url = https://github.com/Lost-Temple/fatetest-v2-dev.git
+	branch = fate_test-v2-dev
 [submodule "fate_board"]
 	path = fate_board
-	url = https://github.com/FederatedAI/FATE-Board.git
-	branch = v2.1.0
+	url = https://github.com/Lost-Temple/fateboard-v2-dev.git
+	branch = fateboard-v2-dev
