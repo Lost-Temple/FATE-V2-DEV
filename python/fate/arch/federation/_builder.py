@@ -63,9 +63,9 @@ class FederationBuilder:
         self._parties = parties
 
     def build(self, computing_session, t: FederationEngine, conf: dict):
-        if t == FederationEngine.STANDALONE:
+        if t == FederationEngine.STANDALONE:  # STANDALONE
             return self.build_standalone(computing_session)
-        elif t == FederationEngine.OSX:
+        elif t == FederationEngine.OSX:  # OSX
             host = cfg.get_option(conf, "federation.osx.host")
             port = cfg.get_option(conf, "federation.osx.port")
             mode = FederationMode.from_str(cfg.get_option(conf, "federation.osx.mode", FederationMode.MESSAGE_QUEUE))
